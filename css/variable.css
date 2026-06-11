@@ -1,0 +1,33 @@
+/* Css variables*/
+:root{
+    --primary:      #14352d;
+    --primary-hover:#0d22c6;
+    --secodary:     #2c5b2c;
+    --success:      #1bdcd955;
+    --warning:      #afdc1b55;
+    --danger:       #ed1919ce;
+
+
+    --bg-main:      #f8fafc;
+    --bg-section:   #F8F9FA;
+    --bg-card:      #e6efefcf;
+
+
+    --text-primary: #01010155;
+    --text-secondary:#020303;
+    --text-light:    #ccd8d0;
+
+
+    --footer-bg:      #1414;
+    --footer-text:    #d4d6ca;
+    --footer-link:    #60a5fa;
+    
+    --border:         #e2e8f0;
+
+    --shadow-sm: 0 1px 3px rgba(37,99,241,.08),0 1px 2px rgba(52, 57, 69, 0.05);
+    --shadow-md: 0 4px 16px rgba(37,99,241,.12),0 2px 6px rgba(0,0,0,0.07);
+    --shadow-lg: 0 10px 40px rgba(37,99,241,.16),0 1px 2px rgba(0, 0, 6, 0.09);
+    --radius:   15px;
+    --transition: .28s cubic-bezier(.4,0,.2,1);
+    
+}
