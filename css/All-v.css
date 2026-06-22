@@ -1,4 +1,30 @@
+.hero-section{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background:#94c5ce74;
 
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+
+.hero-section .btn{
+    border-radius: 50px;
+    padding: 12px 30px;
+}
+
+
+.collage img{
+    width:100%;
+    height:120px;
+    object-fit:cover;
+    transition:0.3s;
+}
+
+.collage img:hover{
+    transform:scale(1.05);
+}
 /*card*/
 .form-container {
 	width: 100%;
@@ -31,12 +57,16 @@
 }
 
 
+#All:checked~.tabs label[for="All"],
 #kabul:checked~.tabs label[for="kabul"],
 #mzar:checked~.tabs label[for="mzar"],
 #bamyan:checked~.tabs label[for="bamyan"],
 #norstan:checked~.tabs label[for="norstan"],
 #badqshan:checked~.tabs label[for="badqshan"],
-#herat:checked~.tabs label[for="herat"]{
+#herat:checked~.tabs label[for="herat"],
+#qazni:checked~.tabs label[for="qazni"],
+#nangr:checked~.tabs label[for="nangar"]
+{
                                                                             
                                 color: #4facfe;
                                 border-bottom: 2px solid #4facfe;
@@ -52,6 +82,10 @@ input[type="radio"] {
     display: none;
     flex-wrap: wrap;
     gap: 20px;
+}
+
+#All:checked~.form-container .All-form {
+	display: flex;
 }
 
 #kabul:checked~.form-container .kabul-form {
@@ -72,5 +106,13 @@ input[type="radio"] {
 	display: flex;
 }
 #herat:checked~.form-container .herat-form {
+	display: flex;
+}
+
+#qazni:checked~.form-container .qazni-form {
+	display: flex;
+}
+
+#nangr:checked~.form-container .nangr-form {
 	display: flex;
 }
