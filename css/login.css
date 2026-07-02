@@ -1,0 +1,150 @@
+.section{
+    background-color: var(--bg-section);
+    display: flex;
+    height: 100vh;
+
+}
+
+.form-section{
+     flex:1;
+     display: flex;
+    background:linear-gradient(to right,#6273e2a1,#2c4e38);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-box{
+    width:400px;
+    padding:25px;
+    border-radius:8px;
+    background:#fff;
+    box-shadow:0 4px 15px rgba(0,0,0,.2);
+}
+
+
+
+h2{
+    text-align: center;
+
+}
+
+input{
+    width:100%;
+    padding:12px !important;
+    margin:12px 0 !important;
+    border:1px solid #909b94;
+    border-radius:4px;
+}
+
+
+button{
+    width: 100%;
+    padding:10px !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    border:none;
+    border-radius:8px !important;
+    background: #a6feff;
+    color:#525553;
+    cursor: pointer;
+    text-align: center ;
+    transition: 0.3 !important;
+}
+
+button:hover{
+    transform: translateY(-8px) !important;
+}
+
+.link{
+    width:100% ;
+    
+    margin-top: 10px;
+
+}
+
+.link a{
+
+    text-decoration: none;
+    color:#474747 !important;
+    background:#ffff;
+}
+
+
+.link a:hover{
+     text-decoration: underline;
+     transform: translateY(-8px) !important;
+}
+
+.name-box{
+    position: relative;
+}
+
+.name-box input{
+    width:100%;
+    padding: 10px 45px !important;
+    box-sizing: border-box;
+}
+
+.name-box .person{
+        position:absolute;
+        right:15px;
+        top:50%;
+        transform:translateY(-50%);
+        cursor:pointer;
+}
+
+.password-box{
+    position: relative;
+}
+
+.password-box input{
+    width:100%;
+    padding: 10px 45px !important;
+    box-sizing: border-box;
+}
+.password-box i{
+    position:absolute;
+    left:15px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+.password-box .key{
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+}
+
+.icon-l{
+    display: inline-flex;
+    align-items: center;
+    color:rgb(98, 152, 214);
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #3c373717;
+    font-size:17px;
+    transition: backgrount var(--transition),transform var(--transition);
+}
+.icon-l:hover{
+     background-color: #0f060608;
+    transform:translateY(-2px);
+}
+.captcha-box{
+  margin-top: 10px;
+}
+
+
+h6{
+    color:#909b94 !important;
+  text-decoration-line: line-through;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+   text-decoration-color: #66c5c5;
+}
+
+

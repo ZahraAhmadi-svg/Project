@@ -9,17 +9,34 @@
     color: rgb(0, 0, 0);
 }
 
+.custom-title{
+	color:#585c60;
+}
 .hero-section .btn{
     border-radius: 50px;
     padding: 12px 30px;
+	opacity: .8;
+	
 }
 
+.t-primary{
+	color: #5b95c8;
+	font-size: 30px !important;
+}
+
+
+.t-primary p{
+    font-size: 30px !important;
+}
+
+ 
 
 .collage img{
     width:100%;
     height:120px;
     object-fit:cover;
     transition:0.3s;
+	opacity: 0.6;
 }
 
 .collage img:hover{

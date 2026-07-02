@@ -78,7 +78,8 @@
 .popular-places .card img{
     height: 250px;
     object-fit: cover;
-    transition: transform 0.4s ease;
+      opacity: 0.75;
+    transition: transform 0.4s;
 }
 
 .popular-places .card:hover img{
@@ -96,7 +97,7 @@
 .popular-places .card-title{
     font-size: 1.3rem;
     font-weight: 400;
-    color: #e77373;
+    color:#1ce4d4;
     margin-bottom: 10px;
 }
 
